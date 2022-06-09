@@ -1,0 +1,86 @@
+.liponNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.612);
+    height: 10vh;
+    padding: 0px 20px;
+    position: relative;
+    z-index: 100;
+    color: white;
+    border-bottom: 1px solid red;
+}
+.leftSide{
+flex: 1;
+display: flex;
+align-items: start;
+justify-content: start;
+
+}
+
+.rightSide {
+        flex: 1;
+
+}
+.allLink {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.myLink {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+.myLink:hover {
+    color: rgb(255, 255, 255) ;
+}
+
+.active-myLink {
+    color: rgb(255, 255, 255) ;
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 1px solid red;
+}
+.active-myLink:hover {
+        color: rgb(255, 255, 255);
+}
+.toggleBut {
+    display: none;
+ }
+
+
+            @media (max-width: 768px) {
+                                .toggleBut {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        color: rgb(255, 255, 255);
+                                        font-size: 22px;
+                                }
+                                
+                                .allLink {
+                                    display: none;
+                                }
+                                
+                                #notHidden {
+                                    position: absolute;
+                                    left: 0;
+                                    right: 0;
+                                    top: 74px;
+                                    height: 250px;
+                                    width: 100%;
+                                    background-color: rgb(129, 210, 248);
+
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    z-index: 100;
+                                }
+
+               
+            }
+
