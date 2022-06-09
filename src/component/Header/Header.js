@@ -22,7 +22,9 @@ const Header = () => {
 						<p class='mb-4 leading-relaxed'>Hi I am a Mern Stack developer And I can build your website as you want. I can build website Single Page Web Application. Now I am able to design your portfolio.</p>
 						<p class='mb-8 leading-relaxed'>Creative problem solver with demonstrated ability to work on multiple projects simultaneously.Positive driven and confident individual with an apt for learning new technology.</p>
 						<div class='flex justify-center'>
-							<button class='btn mr-2'>MY RESUME</button>
+							<button href='https://drive.google.com/drive/u/0/folders/1pEIiSHTrgcO79BQCZR76WAF7ApLKCRQw' class='btn mr-2'>
+								MY RESUME
+							</button>
 							<button class='btn'>HIRE ME</button>
 						</div>
 					</div>

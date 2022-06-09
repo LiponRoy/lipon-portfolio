@@ -11,8 +11,8 @@ const NavbarTwo = () => {
 	return (
 		<>
 			{/* <div className='w-full fixed z-50'></div> */}
-			<div className='w-full'>
-				<div className='liponNav w-full'>
+			<div className='w-full '>
+				<div className='liponNav w-full bg-slate-600'>
 					<div className='leftSide'>
 						<div className='logo'>
 							<h4>Lipon Roy </h4>
