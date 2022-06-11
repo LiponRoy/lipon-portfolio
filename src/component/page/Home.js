@@ -1,15 +1,18 @@
 import React from 'react';
+import Blog from '../blog/Blog';
+import CardMy from '../cardMy/CardMy';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-import MajBorabor from '../MajBorabor';
-import WhatIDo from '../WhatIDo';
+import MyServices from '../myServices/MyServices';
+import CardThree from '../Projects/CardThree';
 
 const Home = () => {
 	return (
 		<div>
 			<Header></Header>
-			<WhatIDo></WhatIDo>
-			{/* <MajBorabor></MajBorabor> */}
+			<MyServices></MyServices>
+			<CardThree></CardThree>
+			<Blog></Blog>
 			<Footer></Footer>
 		</div>
 	);

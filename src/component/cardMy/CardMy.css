@@ -1,0 +1,55 @@
+.cardContain {
+	/* //....... */
+	min-height: 500px;
+	max-width: 400px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	background-color: rgb(57, 5, 14);
+    margin: 5px;
+
+
+	
+}
+.cardContain .imagePart {
+	flex: 3;
+	background-color: rgb(21, 87, 210);
+
+	object-fit: cover;
+	object-position: center;
+	height: 100%;
+    overflow: hidden;
+
+  
+}
+.cardContain .TextPart {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(50, 7, 66);
+	width: 100%;
+   
+    padding: 12px;
+}
+.cardContain .TextPart .TextHeading {
+   
+    
+
+
+}
+.cardContain .BtnPart {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(132, 30, 180);
+	width: 100%;
+}
+.imgMe {
+}

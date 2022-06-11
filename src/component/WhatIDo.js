@@ -5,7 +5,7 @@ const WhatIDo = () => {
 		<div>
 			<section class='text-gray-600 body-font overflow-hidden'>
 				<div class='divider text-2xl'>What I Do</div>
-				<div class='container px-5 py-8 mx-auto '>
+				<div class='container py-8 mx-auto '>
 					<div class='mainCon -my-8 divide-y-2 divide-gray-100 '>
 						<div class='py-8 p-5 flex flex-wrap md:flex-nowrap bg-slate-600 hover:bg-slate-900'>
 							<div class='md:flex-grow text-left text-white'>
